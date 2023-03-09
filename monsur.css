@@ -1,11 +1,9 @@
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; margin-bottom: 20px;
+  box-sizing: border-box; 
 }
 
-section{
-  background-color: white;
+.left{ ;
+  margin-left: 20px; margin-bottom: 20px;
   height: 200vh;
 
 
