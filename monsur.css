@@ -1,1 +1,26 @@
-h1 {color: red;}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section{
+  background-color: red;
+  height: 200vh;
+
+
+}
+
+nav{
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: static;
+
+}
+
+img{
+  width: 20rem;
+}
