@@ -1,12 +1,11 @@
-*{
+*{ overflow: visible;
   box-sizing: border-box; 
 }
 
-.left{ ;
-  margin-left: 20px; margin-bottom: 20px;
+.left
+{ 
+  margin-left: 80px;
   height: 200vh;
-
-
 } 
 
 
@@ -31,4 +30,14 @@ li{
 
 img{
   width: 20rem;
+}
+
+.last{ 
+   border: 1px ridge gainsboro;
+  background-color: white;
+    padding: 5px;
+     float: left; 
+     width: 33.33%;
+     text-align: center;
+
 }
