@@ -1,11 +1,10 @@
-*{ margin-bottom: 20px;
+*{
   box-sizing: border-box; 
 }
 
-.left
-{ 
+.left{ 
   margin-left: 80px;
-  height: 200vh;
+  margin-bottom: 20px;
 } 
 
 
@@ -18,14 +17,18 @@ nav{
   align-items: center;
   justify-content: space-between;
   position: static;
+  text-decoration: none;
   
 
 }
-ul{
-  text-decoration: none; color: black;
+ul{ 
+  color: black;
 }
 li{
-  display: inline; list-style-type: none; margin-left: 20px; color: black;
+  display: inline;
+   list-style-type: none;
+    margin-left: 20px; 
+    color: black;
 }
 
 img{
@@ -33,13 +36,24 @@ img{
 }
 
 .last { 
+  float: left;
   width: 30%;
   padding: 50px;
   border: 2px solid gray;
   margin: 0;
-text-align: center;}
+  margin-left: 20px;
+text-align: center;
+}
 
-h4{ padding: 2px;
-  border: 1px solid gray;
+h4{ 
+  padding:5px;
 background-color:yellow;
+}
+footer{ 
+  width: 100%;
+  display: inline;
+  float: right;
+text-decoration:none;
+background-color: gainsboro;
+margin-top: 20px;
 }
